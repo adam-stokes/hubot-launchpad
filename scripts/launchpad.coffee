@@ -4,7 +4,7 @@
 # Several listeners for retrieving a bug
 #
 # Commands:
-#   lp <bug> - retrieves bug
+#   lp <bug> or #<bug> or LP#<bug> - retrieves bug
 #
 # Notes:
 #    * Can access with the following statements
