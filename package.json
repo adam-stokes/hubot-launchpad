@@ -1,0 +1,23 @@
+{
+    "name": "hubot-launchpad",
+    "version": "0.0.1",
+    "description": "launchpad interface for hubot",
+    "main": "index.coffee",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/battlemidget/hubot-launchpad.git"
+    },
+    "keywords": [
+        "hubot",
+        "launchpad"
+    ],
+    "author": {
+        "name": "Adam Stokes",
+        "email": "adam.stokes@ubuntu.com"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/battlemidget/hubot-launchpad/issues"
+    },
+    "homepage": "https://github.com/battlemidget/hubot-launchpad"
+}
