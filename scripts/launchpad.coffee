@@ -17,7 +17,6 @@
 
 module.exports = (robot) ->
   robot.hear /[lpLP#]\s?(\d+)/i, (msg) ->
-    console.log msg.match[1]
     bugId = msg.match[1]
     lp_url = 'https://api.launchpad.net/1.0/bugs/' + bugId
     bug = {}

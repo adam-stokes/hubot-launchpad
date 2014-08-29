@@ -1,6 +1,6 @@
 {
     "name": "hubot-launchpad",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "launchpad interface for hubot",
     "main": "index.coffee",
     "repository": {
