@@ -16,7 +16,7 @@
 #   Adam Stokes <adam.stokes@ubuntu.com>
 
 module.exports = (robot) ->
-  robot.hear /[lpLP#]\s?(\d+)/i, (msg) ->
+  robot.hear /#(\d+)/i, (msg) ->
     bugId = msg.match[1]
     lp_url = 'https://api.launchpad.net/1.0/bugs/' + bugId
     bug = {}
