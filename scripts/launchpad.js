@@ -15,7 +15,7 @@
 // Author:
 //   Adam Stokes <adam.stokes@ubuntu.com>
 
-function printBug(bot, bug) {
+function printBug(robot, bug) {
   var lpUrl = 'https://api.launchpad.net/1.0/bugs/' + bug;
 
   robot.http(lp_url)
